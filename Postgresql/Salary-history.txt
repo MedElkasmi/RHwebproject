@@ -1,0 +1,19 @@
+-- Table: public.salary_history
+
+-- DROP TABLE public.salary_history;
+
+CREATE TABLE public.salary_history
+(
+    id_salary integer NOT NULL DEFAULT nextval('salary_history_id_salary_seq'::regclass),
+    employee character varying COLLATE pg_catalog."default",
+    skills character varying COLLATE pg_catalog."default",
+    entity character varying COLLATE pg_catalog."default",
+    date_upgrade date,
+    salaire_brut double precision,
+    salaire_net double precision
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.salary_history
+    OWNER to postgres;

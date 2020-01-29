@@ -1,0 +1,22 @@
+-- Table: public.employee_info
+
+-- DROP TABLE public.employee_info;
+
+CREATE TABLE public.employee_info
+(
+    id_employee integer NOT NULL DEFAULT nextval('employee_info_id_employee_seq'::regclass),
+    nom_prenom character varying COLLATE pg_catalog."default",
+    date_embauche date,
+    ncnss character varying COLLATE pg_catalog."default",
+    date_naissance date,
+    email character varying COLLATE pg_catalog."default",
+    phone integer,
+    qualification character varying COLLATE pg_catalog."default",
+    genre character varying COLLATE pg_catalog."default",
+    entite character varying COLLATE pg_catalog."default"
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.employee_info
+    OWNER to postgres;

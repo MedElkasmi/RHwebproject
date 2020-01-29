@@ -1,0 +1,501 @@
+
+
+#dash {
+    background-color:  #f9f9f9;
+    zoom: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#login {
+    background-color: white;
+    
+}
+
+#login h1 {
+    text-align: center !important;
+    margin-top: 32% !important;
+}
+
+/* page login styling code======================================================================*/
+
+.leftHalf {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    float: left;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+}
+
+.leftHalf .content {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 33%;
+}
+
+.leftHalf .content h1 {
+    color: white;
+}
+
+.righthalf {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+
+
+.righthalf form {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-right: auto;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    bottom:0;
+    border-top: 1px solid #eee;
+    background-color: blueviolet;
+
+
+}
+
+footer span {
+    position: absolute;
+    bottom: 10px;
+    left: 44%;
+    color: white;
+    font-weight: bold;
+}
+
+/*Dashboard Styling code======================================================================*/
+
+
+
+.f-left {
+	float: left;
+	margin-left:16px!important;
+}
+
+.f-right {
+	float: right;
+	margin-right: 16px!important;
+}
+
+nav {
+	top: 0;
+    position: fixed;
+	width: 100%;
+    z-index: 2;
+	background-color:blueviolet;
+}
+
+nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav ul li a {
+	padding: 0 8px 0; 
+    font-size: 20px;
+    color: white;
+}
+
+
+header p  {
+   font-size: 30px;
+}
+
+.panel-block {
+    padding-top: 70px;
+}
+
+
+
+.panel {
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    height: 130px;
+}
+
+
+
+.container p {
+    margin-left: 15px;
+    width: 100%;
+    color: black;
+    
+}
+
+.sidebar {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -180px;
+    background-color: blueviolet;
+    
+}
+
+
+.links {
+    padding-top: 40%;
+    margin-left: 10px;
+}
+
+@keyframes test2 {
+    from {background-color:#ff9800;}
+    to {background-color:#ad1457 ;}
+}
+
+/*.sidebar a:hover {
+    background-color: #ff9800;
+    width: 200%;
+    margin-left: -20px;
+    transition: 1s;
+    animation-name: test2;
+    animation-duration: 2s;
+
+}*/
+
+.links .active {
+    margin-left: -9px;
+    font-size: 50px;
+    background-color: #33b5e5;
+    font-weight: bold;
+    width: 105%;
+}
+
+
+
+.sidebar .links a {
+    padding-left: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+.links .links .active a {
+    font-size: 40px;
+}
+
+.sidebar .fa-gear {
+    position: absolute;
+    top: 200px;
+    font-size: 25px;
+    color: white;
+    left: 180px;
+    background-color: blueviolet;
+    width: 32%;
+    text-align: center;
+    height: 48px;
+    line-height: 2;
+    cursor: pointer;
+}
+
+.options {
+    padding: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid #eee;
+    
+}
+
+.op {
+    height: 250px;
+    border: 1px solid #eee;
+    padding-top: 50px;
+    color:white;
+    cursor: pointer;
+}
+
+.options .op a {
+    color: white;
+    text-decoration: none;
+}
+
+@keyframes test {
+    from {background-color:#f44336;}
+    to {background-color:#ad1457 ;}
+}
+
+.op:nth-of-type(1):hover {
+    animation-name: test;
+    animation-duration: 2s;
+
+}
+
+.op:nth-of-type(1) {
+    background-color: #f44336;
+    height: 355px;
+    padding-top: 110px;
+}
+
+.op:nth-of-type(2) {
+    background-color: #e91e63;
+    height: 355px;
+    padding-top: 110px;
+}
+
+.op:nth-of-type(3) {
+    background-color: #aa00ff;
+    height: 355px;
+    padding-top: 110px;
+}
+
+.op:nth-of-type(4) {
+    background-color: #1976d2 ;
+    height: 173px;
+    
+}
+
+.op:nth-of-type(5) {
+    background-color: #0097a7;
+    height: 173px;
+}
+
+.op:nth-of-type(6) {
+    background-color:#1de9b6;
+    height: 182px;
+}
+
+.op:nth-of-type(7) {
+    background-color: #ff9800;
+    height: 182px;
+}
+
+#respond {
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background-color: white;
+    border: 1px solid #eee;
+}
+
+#respond form {
+    border: 1px solid #eee;
+    padding: 0 40px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+#respond i {
+    height: 0;
+    float: left;
+    position: relative;
+    top: -23px;
+    left: 13px;
+    color: #999;
+}
+
+#respond .form-control{
+    padding-left: 38px;
+}
+
+#respond  h1 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#respond h1 i:nth-of-type(1)
+{
+    color: black;
+    float: none;
+    position: relative;
+    top: 0;
+    left: -9px;
+}
+
+#block-print {
+    padding: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid #eee;
+    display: block;
+}
+
+#block-print h2 {
+    float: left;
+    margin-top: -5px;
+}
+
+#block-print form {
+    float: right;
+}
+
+
+/*#block-print .find-form {
+
+    width: 280px !important;
+    position: absolute;
+    top: 100px;
+    right: 281px;
+}*/
+
+.scroll_top i {
+    font-size: 37px;
+    background-color: #ff9800;
+    width: 52px;
+    height: 44px;
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    display: inline-block;
+    bottom: 17px;
+    right: 17px;
+    color: white;
+    
+}
+
+@media print {
+
+    table {
+        font-size: 60px;
+    }
+}
+
+
+
+.main-table h1 {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 19px;
+}
+
+.document {
+    padding: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid #eee;
+}
+
+.holidays {
+    padding: 20px;
+    margin-top: 30px;
+    background-color: white;
+    border: 1px solid #eee;
+}
+
+.holidays form {
+    display: block;
+}
+
+.history {
+    padding: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid #eee;
+}
+
+.admin {
+    padding: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid #eee;
+}
+
+.admin .form-group {
+    width: 32%;
+    margin-left: 34%; 
+}
+
+.admin .form-group h1 {
+    margin-bottom: 40px;
+}
+
+/**************************Table styling print */
+
+
+
+/*Bootstrap Styling Code======================================================================*/
+
+.table-bordered {
+    background-color: white !important;
+}
+
+.manage .table-bordered tbody tr:nth-of-type(1)
+{
+    background-color: #aa00ff;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.holidays .table-bordered  tr:nth-of-type(1)
+{
+    background-color: #aa66cc;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.document .table-bordered  tr:nth-of-type(1)
+{
+    background-color: #aa66cc;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.history .table-bordered  tr:nth-of-type(1)
+{
+    background-color: #aa66cc;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.admin .table-bordered  tr:nth-of-type(1)
+{
+    background-color: #aa66cc;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    text-align: center;
+    
+}
+
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    width: 37%;
+    margin-left: 12%;
+}
+
+
+

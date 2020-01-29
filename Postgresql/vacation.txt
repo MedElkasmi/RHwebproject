@@ -1,0 +1,22 @@
+-- Table: public.vacation
+
+-- DROP TABLE public.vacation;
+
+CREATE TABLE public.vacation
+(
+    id integer NOT NULL DEFAULT nextval('vacation_id_seq'::regclass),
+    employee character varying COLLATE pg_catalog."default",
+    skills character varying COLLATE pg_catalog."default",
+    vacation_start date,
+    vacation_end date,
+    vacation_estimated interval,
+    num_days integer,
+    vacation_status character varying COLLATE pg_catalog."default",
+    today date,
+    selected_day integer
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.vacation
+    OWNER to postgres;

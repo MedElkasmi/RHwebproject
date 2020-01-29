@@ -1,0 +1,22 @@
+-- Table: public.emp_archive
+
+-- DROP TABLE public.emp_archive;
+
+CREATE TABLE public.emp_archive
+(
+    id integer NOT NULL DEFAULT nextval('emp_archive_id_seq'::regclass),
+    nom_prenom character varying COLLATE pg_catalog."default",
+    date_embauche date,
+    ncnss character varying COLLATE pg_catalog."default",
+    date_naissance date,
+    email character varying COLLATE pg_catalog."default",
+    phone integer,
+    qualification character varying COLLATE pg_catalog."default",
+    genre character varying COLLATE pg_catalog."default",
+    entite character varying COLLATE pg_catalog."default"
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.emp_archive
+    OWNER to postgres;
