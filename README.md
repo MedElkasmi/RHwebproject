@@ -10,4 +10,4 @@ Baisc language : HTML5, CSS3, Javascript <br>
 Framework : Bootstrap 4 <br>
 
 
-<img src="https://i.imgur.com/txXSYLA.jpg"></img>
+<img src="https://i.imgur.com/snffXl7.png"></img>
